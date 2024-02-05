@@ -3,25 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YouTube-like Video Player</title>
+  <title>Youtube replica</title>
   <link rel="stylesheet" href="/STYLES.CSS">
-  <link rel="shortcut icon" href="/YouTube_23392.ico">
 </head>
 <body>
-
-  <header>
-    <h1>YouTube-like Video Player</h1>
-  </header>
-
-  <main>
-    <div class="video-container">
-      <iframe id="video-frame" src="" frameborder="0" allowfullscreen></iframe>
+  <nav class="navbar">
+    <div class="toggle-btn">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
-  </main>
-
-  <footer>
-    <p>This is a simple YouTube-like video player interface.</p>
-  </footer>
-
+    <img src="/logo.png" alt="Youtube logo" class="logo">
+    <div class="search-box">
+      <input type="text" class="search-bar" placeholder="search">
+      <button class="search-btn"><img src="/search.PNG" alt="searchbtn"></button>
+    </div>
+    <div class="user-options">
+      <img src="/video.PNG" class="icon"alt="">
+      <img src="/bell.svg" alt=""class="icon">
+      <div class="user-dp">
+        <img src="/Meh.jpg" alt="">
+      </div>
+    </div>
+  </nav>
+  <script src="APP.JS"></script>
 </body>
 </html>
